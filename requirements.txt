@@ -1,0 +1,16 @@
+haystack-ai
+haystack-experimental
+chroma-haystack
+markdown-it-py
+mdit_plain
+pypdf
+gdown
+python-docx
+ollama-haystack
+psycopg2
+trafilatura
+lxml_html_clean
+sentence-transformers>=3.0.0
+numpy==1.24.3
+python-telegram-bot==13.14
+python-dotenv
