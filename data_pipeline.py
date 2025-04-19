@@ -53,7 +53,7 @@ def build_index():
     document_cleaner = DocumentCleaner()
     document_splitter = DocumentSplitter(split_by="word", language="ru")
 
-    # you can use can be used any sentence-transformer model from https://huggingface.co/sentence-transformers
+    # you can use any sentence-transformer model from https://huggingface.co/sentence-transformers
     # for example sentence-transformers/all-roberta-large-v1
     embedding_model = "lang-uk/ukr-paraphrase-multilingual-mpnet-base"  # ukrainian fine-tuned model
 

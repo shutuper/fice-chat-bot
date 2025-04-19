@@ -63,7 +63,7 @@ def get_qa_pipeline():
     # Build QA Pipeline
     qa_pipeline = Pipeline()
 
-    # you can use can be used any sentence-transformer model from https://huggingface.co/sentence-transformers
+    # you can use any sentence-transformer model from https://huggingface.co/sentence-transformers
     # for example sentence-transformers/all-roberta-large-v1
     embedding_model = "lang-uk/ukr-paraphrase-multilingual-mpnet-base"  # ukrainian fine-tuned model
 
